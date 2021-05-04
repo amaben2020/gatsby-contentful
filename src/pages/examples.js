@@ -20,6 +20,7 @@ const examples = ({ data }) => {
   )
 }
 
+//page Query
 export const data = graphql`
   query MyQuery {
     site {

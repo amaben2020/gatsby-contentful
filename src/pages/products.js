@@ -1,13 +1,12 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "./components/Layout"
-import Img from "gatsby-plugin-image"
+import Img from "gatsby-image"
 import styles from "./../../src/products.css"
-
 //This is a Page level query
 
 const ComponentName = ({ data }) => {
-  //destructuring the data
+  //destructuring the
   const {
     allContentfulProduct: { nodes: products },
   } = data
